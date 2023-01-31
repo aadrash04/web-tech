@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+       .color-change{
+       background-color: black;
+        color:white
+       }
+    </style>
+</head>
+<body>
+    <h1>Toogle to dark and light mode</h1>
+    <p>click the below button to see the dark mode and light mode</p>
+    <button onclick="theme()">Click me!</button>
+    <script>
+        function theme(){
+            var element = document.body;
+            element.classList.toggle("color-change");
+        }
+    </script>
+</body>
+</html>

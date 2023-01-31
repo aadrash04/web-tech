@@ -1,0 +1,15 @@
+
+            @import url('https://fonts.googleapis.com/css2?family=Rubik+80s+Fade&family=Unbounded&display=swap');
+            h1{
+                background-color: cadetblue;
+                font-size: 59px;
+                color: chartreuse;
+                font-family: 'Unbounded', cursive;
+            }
+            p{
+                background-color: cornflowerblue;
+                font-size: 20px;
+                color: tan;
+                font-family: 'Lato', sans-serif;
+            }
+        
